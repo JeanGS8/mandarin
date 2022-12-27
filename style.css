@@ -95,26 +95,26 @@ main{
 
 .card-principal h2{
   font-weight: bold;
-  font-size: 4vw;
+  font-size: 2.5vw;
   margin: 2% 0;
 }
 
 .card-principal p{
   font-weight: normal;
-  font-size: 3vw;
-  margin-bottom: 2%;
+  font-size: 2vw;
+  margin-bottom: 1%;
 }
 
 .card-secundario h2{
   font-weight: bold;
-  font-size: 3vw;
+  font-size: 2vw;
   margin: 2% 0;
 }
 
 .card-secundario p{
   font-weight: normal;
-  font-size: 2.5vw;
-  margin-bottom: 2%;
+  font-size: 1.5vw;
+  margin-bottom: 1%;
 }
 
 .card-principal{
@@ -140,7 +140,7 @@ footer div{
 }
 
 footer img{
-  width: 350px;
+  width: 50vw;
 }
 
 footer a{
@@ -148,178 +148,50 @@ footer a{
 }
 
 footer p{
-  font-size: 3vw;
+  font-size: 1.5vw;
   margin: 0;
   text-align: center;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 500px){
+
+  .texto{
+    font-size: 2.5vw;
+    margin: 1vw 0;
+  }
+  
+  .edicao{
+    font-size: 2vw;
+    margin: 0 0 1vw 0;
+  }
+
+  .card-principal h2{
+    font-weight: bold;
+    font-size: 3.5vw;
+    margin: 2% 0;
+  }
+  
+  .card-principal p{
+    font-weight: normal;
+    font-size: 3vw;
+    margin-bottom: 1%;
+  }
+  
+  .card-secundario h2{
+    font-weight: bold;
+    font-size: 3vw;
+    margin: 2% 0;
+  }
+  
+  .card-secundario p{
+    font-weight: normal;
+    font-size: 2.5vw;
+    margin-bottom: 1%;
+  }
+
+  footer p{
+    font-size: 3vw;
+    margin: 0;
+    text-align: center;
+  }
 }
-
-/* @media screen and (max-width: 950px){
-  body{
-    margin: 1%;
-  }
-
-  .h-degrade{
-    padding: 3%;
-    height: 100px;
-    margin-bottom: 0;
-    align-items: center;
-    background: linear-gradient(90deg, #E9492A 0%, #E8383E 35%, #E72357 100%);
-  }
-
-  .logo-principal{
-    width: 120px;
-  }
-
-  header p{
-    margin-bottom: 10px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: end;
-  }
-  
-  .edicao{
-    font-size: 15px;
-  }
-
-  .bolinhas{
-    width: 5%;
-    margin-top: 15%;
-  }
-  
-  header .mid{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    height: 100%;
-  }
-
-  .vector{
-    width: 50px;
-    margin-top: 0;
-  }
-  
-  .mulher{
-    width: 160px;
-  }
-
-  .triangulo{
-    width: 2.5%;
-    margin: 1.5%;
-  }
-
-  .zipzag{
-    width: 80px;
-  }
-
-  footer img{
-    width: 220px;
-  }
-
-  main{
-    margin: 3%;
-  }
-
-  .card-principal h2{
-    font-size: 35px;
-  }
-
-  .card-principal p{
-    font-weight: normal;
-    font-size: 25px;
-  }
-
-  .card-secundario h2{
-    font-size: 28px;
-  }
-  
-  .card-secundario p{
-    font-weight: normal;
-    font-size: 18px;
-  }
-} */
-
-/* @media screen and (max-width: 550px){
-  body{
-    margin: 1%;
-  }
-
-  .h-degrade{
-    padding: 3%;
-    height: 100px;
-    margin-bottom: 0;
-    align-items: center;
-    background: linear-gradient(90deg, #E9492A 0%, #E8383E 35%, #E72357 100%);
-  }
-
-  .logo-principal{
-    width: 120px;
-  }
-
-  header p{
-    margin-bottom: 10px;
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: end;
-  }
-  
-  .edicao{
-    font-size: 10px;
-  }
-
-  .bolinhas{
-    width: 5%;
-    margin-top: 25%;
-  }
-  
-  header .mid{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    height: 100%;
-  }
-
-  .vector{
-    width: 35px;
-    margin-top: 25%;
-  }
-  
-  .mulher{
-    width: 100px;
-  }
-
-  .triangulo{
-    width: 2.5%;
-    margin: 2%;
-  }
-
-  .zipzag{
-    width: 80px;
-  }
-
-  main{
-    margin: 3%;
-  }
-
-  .card-principal h2{
-    font-size: 20px;
-  }
-
-  .card-principal p{
-    font-weight: normal;
-    font-size: 16px;
-  }
-
-  .card-secundario h2{
-    font-size: 18px;
-  }
-
-  .card-secundario p{
-    font-weight: normal;
-    font-size: 14px;
-  }
-} */
