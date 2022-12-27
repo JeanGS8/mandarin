@@ -1,0 +1,325 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  margin: 1%;
+}
+
+/* Header */
+
+.h-degrade{
+  padding: 2%;
+  margin-bottom: 2%;
+  height: 20vw;
+  background: linear-gradient(90deg, #E9492A 0%, #E8383E 35%, #E72357 100%);
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sobreposicao{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 15%;
+}
+
+.logo-principal{
+  width: 30vw;
+}
+
+.text-align-center{
+  text-align: center;
+}
+
+.bolinhas{
+  width: 5vw;
+  margin-top: 20vw;
+}
+
+.vec-mulher{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.vector{
+  width: 8vw;
+  margin-top: 13vw;
+}
+
+.mulher{
+  width: 25vw;
+}
+
+.texto-direita{
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  color: white;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.triangulo{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1vw 0.5vw;
+  width: 2vw;
+}
+
+.texto{
+  font-size: 2vw;
+  margin: 1vw 0;
+}
+
+.edicao{
+  font-size: 1.5vw;
+  margin: 0 0 1vw 0;
+}
+
+.zipzag{
+  text-align: end;
+  width: 15vw;
+}
+
+/* Main */
+main{
+  margin: 0 2%;
+}
+
+.card-principal h2{
+  font-weight: bold;
+  font-size: 4vw;
+  margin: 2% 0;
+}
+
+.card-principal p{
+  font-weight: normal;
+  font-size: 3vw;
+  margin-bottom: 2%;
+}
+
+.card-secundario h2{
+  font-weight: bold;
+  font-size: 3vw;
+  margin: 2% 0;
+}
+
+.card-secundario p{
+  font-weight: normal;
+  font-size: 2.5vw;
+  margin-bottom: 2%;
+}
+
+.card-principal{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding-bottom: 10px;
+}
+
+.linha{
+  width: 35%;
+  border-radius:10px;
+  margin-bottom: 2%;
+}
+
+/* Footer */
+
+footer div{
+  background-color: #E9492A;
+  padding: 25px;
+  text-align: center;
+  margin: 35px 0;
+}
+
+footer img{
+  width: 350px;
+}
+
+footer a{
+  color: black;
+}
+
+footer p{
+  font-size: 3vw;
+  margin: 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px){
+}
+
+/* @media screen and (max-width: 950px){
+  body{
+    margin: 1%;
+  }
+
+  .h-degrade{
+    padding: 3%;
+    height: 100px;
+    margin-bottom: 0;
+    align-items: center;
+    background: linear-gradient(90deg, #E9492A 0%, #E8383E 35%, #E72357 100%);
+  }
+
+  .logo-principal{
+    width: 120px;
+  }
+
+  header p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: end;
+  }
+  
+  .edicao{
+    font-size: 15px;
+  }
+
+  .bolinhas{
+    width: 5%;
+    margin-top: 15%;
+  }
+  
+  header .mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+  }
+
+  .vector{
+    width: 50px;
+    margin-top: 0;
+  }
+  
+  .mulher{
+    width: 160px;
+  }
+
+  .triangulo{
+    width: 2.5%;
+    margin: 1.5%;
+  }
+
+  .zipzag{
+    width: 80px;
+  }
+
+  footer img{
+    width: 220px;
+  }
+
+  main{
+    margin: 3%;
+  }
+
+  .card-principal h2{
+    font-size: 35px;
+  }
+
+  .card-principal p{
+    font-weight: normal;
+    font-size: 25px;
+  }
+
+  .card-secundario h2{
+    font-size: 28px;
+  }
+  
+  .card-secundario p{
+    font-weight: normal;
+    font-size: 18px;
+  }
+} */
+
+/* @media screen and (max-width: 550px){
+  body{
+    margin: 1%;
+  }
+
+  .h-degrade{
+    padding: 3%;
+    height: 100px;
+    margin-bottom: 0;
+    align-items: center;
+    background: linear-gradient(90deg, #E9492A 0%, #E8383E 35%, #E72357 100%);
+  }
+
+  .logo-principal{
+    width: 120px;
+  }
+
+  header p{
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: end;
+  }
+  
+  .edicao{
+    font-size: 10px;
+  }
+
+  .bolinhas{
+    width: 5%;
+    margin-top: 25%;
+  }
+  
+  header .mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+  }
+
+  .vector{
+    width: 35px;
+    margin-top: 25%;
+  }
+  
+  .mulher{
+    width: 100px;
+  }
+
+  .triangulo{
+    width: 2.5%;
+    margin: 2%;
+  }
+
+  .zipzag{
+    width: 80px;
+  }
+
+  main{
+    margin: 3%;
+  }
+
+  .card-principal h2{
+    font-size: 20px;
+  }
+
+  .card-principal p{
+    font-weight: normal;
+    font-size: 16px;
+  }
+
+  .card-secundario h2{
+    font-size: 18px;
+  }
+
+  .card-secundario p{
+    font-weight: normal;
+    font-size: 14px;
+  }
+} */
